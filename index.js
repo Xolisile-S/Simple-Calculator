@@ -1,11 +1,14 @@
-function calculate( )
-{
-var a,b,Addition,Subtract;
-a = parseInt(document.getElementById ("first").value);
-b = parseInt(document.getElementById ("second").value);
-Addition = a+b; 
-Subtract = a-b; 
+let a = 10;
+let b =5;
 
-document.getElementById ("add") .innerHTML ="Addition : "+Addition;
-document.getElementById ("sub").innerHTML ="Subtraction : "+Subtract;
-}
+
+let sum = a + b;
+let difference = a - b;
+let product = a * b;
+let divide = a/b;
+
+
+console.log( + a + ' + ' + b + ' = ' + sum);
+console.log(+ a + ' - ' + b + ' = ' + difference);
+console.log( + a + ' * ' + b + ' = ' + product);
+console.log(+ a + ' / ' + b + ' = ' + divide);
